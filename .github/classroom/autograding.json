@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Merge Sort by Name",
+      "setup": "",
+      "run": "python -m unittest tests.merge_sort_tests.MergeTests.test_sort_by_name",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Merge Sort by Cost",
+      "setup": "",
+      "run": "python -m unittest tests.merge_sort_tests.MergeTests.test_sort_by_cost",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Quick Sort by Name",
+      "setup": "",
+      "run": "python -m unittest tests.quick_sort_tests.QuickSortTests.test_sort_by_name",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Quick Sort by Cost",
+      "setup": "",
+      "run": "python -m unittest tests.quick_sort_tests.QuickSortTests.test_sort_by_cost",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}
